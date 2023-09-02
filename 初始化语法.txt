@@ -11,3 +11,8 @@ git add .
 git status
 git commit -m 'new'
 git push
+
+
+超时错误解决方法
+git config --global --unset http.proxy
+git config --global --unset https.proxy
