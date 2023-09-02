@@ -1,3 +1,7 @@
 git remote add origin https://github.com/FancyJuice/pictures.git
 git branch -M main
 git push -u origin main
+
+git status
+git commit -m 'new'
+git push
