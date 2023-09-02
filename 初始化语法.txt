@@ -1,7 +1,13 @@
+git init
+git config --gloabl user.name 'dqz'
+git config --global user.email '123@123.com'
+git add .
 git remote add origin https://github.com/FancyJuice/pictures.git
 git branch -M main
 git push -u origin main
 
+
+git add .
 git status
 git commit -m 'new'
 git push
